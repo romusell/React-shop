@@ -3,7 +3,7 @@ function Cart (props){
    return (
     <div className="cart blue darken-4 white-text" onClick={handleBasketShow}>
      <i className="material-icons">add_shopping_cart
-    </i>
+       </i>
         {quantity ? (
         <span className="cart-quantity style">{quantity}</span>)
         : null}
